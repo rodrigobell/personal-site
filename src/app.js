@@ -1,3 +1,5 @@
 import './styles.css';
 
-console.log('Hello World');
+$(window).on("load resize", function () {
+    $(".fill-screen").css("height", window.innerHeight);
+});

@@ -1,11 +1,51 @@
-#myHeader {
-    background-color: lightsteelblue;
+body {
+    margin: 0;
 }
 
-.crown_icon {
-    width: 35px;
-    height: 35px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    filter: blur(1px);
+#navbar {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    width: 150px;
+    height: 285px;
+    background-color: black;
+}
+
+#navbar li {
+    width: 100%;
+    height: 95px;
+
+}
+
+#navbar a {
+    display: inline-block;
+    width: 100%;
+    line-height: 95px;
+    text-align: center;
+    text-decoration: none;
+    color: #C8C4B9;
+}
+
+#navbar #logo {
+    font-size: 40px;
+    color: #82735D;
+}
+
+.fill-screen {
+    max-width: 100%;
+    height: 1000px;
+    background-color: #151717;
+}
+
+footer {
+    position: absolute;
+}
+
+footer p {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    width: 400px;
+    margin: 0;
+    color: #95989A;
 }
