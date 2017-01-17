@@ -26,13 +26,13 @@
   "scripts": {
     "start": "npm-run-all --parallel open:src security-check",
     "share": "npm-run-all --parallel open:src security-check localtunnel",
-    "open:src": "babel-node buildScripts/srcServer.js",
+    "open:src": "babel-node tools/srcServer.js",
     "security-check": "nsp check",
     "localtunnel": "lt --port 3000 --subdomain rbell",
     "clean-dist": "rimraf ./dist && mkdir dist",
     "prebuild": "npm run clean-dist",
-    "build": "babel-node buildScripts/build.js",
-    "postbuild": "babel-node buildScripts/distServer.js"
+    "build": "babel-node tools/build.js",
+    "postbuild": "babel-node tools/distServer.js"
   },
   "repository": {
     "type": "git",
