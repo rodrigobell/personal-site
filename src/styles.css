@@ -1,0 +1,12 @@
+#myHeader {
+    background-color: lightsteelblue;
+}
+
+.crown_icon {
+    width: 35px;
+    height: 35px;
+    background-image: url('../assets/images/crown_icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+}
