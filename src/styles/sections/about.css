@@ -1,18 +1,32 @@
 #about-text {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 60px;
+    left: 170px;
     color: white;
-    width: 550px;
+    width: 35%;
+    font-size: 18px;
+    line-height: 200%;
+}
+
+#hobbies p {
+    margin: 0;
+}
+
+#hobbies ul {
+    float: left;
+    margin: 0;
+}
+
+#about-text ul:first-of-type {
+    margin-right: 20px;
 }
 
 #billiards-photo {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     right: 0;
-    width: 600px;
-    height: 400px;
-    background-image: url(../../../assets/images/billiards.png);
-    color: blue;
-    z-index: 99;
+    width: 65%;
+    height: 70%;
+    background-image: url(../../../assets/images/billiards_feathered.png);
+    background-size: cover;
 }
