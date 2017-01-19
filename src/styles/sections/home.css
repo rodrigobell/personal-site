@@ -8,7 +8,7 @@
     box-shadow: 0 0 12px rgba(0,0,0,0.8);
 }
 
-.home-word {
+.home-words {
     position: absolute;
     margin: 0;
     letter-spacing: 10px;
@@ -16,7 +16,7 @@
     opacity: 0.7;
 }
 
-.home-quote {
+.home-quotes {
     position: absolute;
     width: 250px;
     height: 100px;
@@ -24,6 +24,16 @@
     color: rgba(255,255,255,0.9);
     background-color: rgba(0,0,0,0.9);
     border-radius: 5px;
+}
+
+.home-quotes q {
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+}
+
+.home-quotes .quote-by {
+    margin: 5px 10px 10px 10px;
+    float: right;
 }
 
 #environment-word {
@@ -67,7 +77,7 @@
 #coding-quote {
     top: 45%;
     right: 12%;
-    height: 80px;
+    height: 65px;
 }
 
 #entrepreneurship-word {
