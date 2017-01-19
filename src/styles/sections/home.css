@@ -1,4 +1,4 @@
-#bridge-photo {
+#bridge-bg {
     border: none;
     width: 100%;
     height: 100%;
@@ -8,36 +8,75 @@
     box-shadow: 0 0 12px rgba(0,0,0,0.8);
 }
 
-#bridge-photo p {
+.home-word {
     position: absolute;
     margin: 0;
-    letter-spacing: 8px;
+    letter-spacing: 10px;
     color: #E2DFD9;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
-#environment {
+.home-quote {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    margin: 0;
+    color: rgba(255,255,255,0.9);
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 5px;
+}
+
+#environment-word {
     top: 76%;
     left: 15%;
 }
 
-#design {
-    top: 53%;
-    left: 31%;
+#environment-quote {
+    top: 58%;
+    left: 8%;
 }
 
-#education {
+#design-word {
+    top: 53%;
+    left: 31%;
+    letter-spacing: 12px;
+}
+
+#design-quote {
+    top: 30%;
+    left: 10%;
+}
+
+#education-word {
     top: 33%;
     left: 43%;
 }
 
-#coding {
-    top: 56%;
-    right: 31%;
+#education-quote {
+    top: 10%;
+    left: 55%;
+    height: 80px;
 }
 
-#bridge-photo #entrepreneurship {
+#coding-word {
+    top: 58%;
+    right: 31%;
+    letter-spacing: 12px;
+}
+
+#coding-quote {
+    top: 45%;
+    right: 12%;
+    height: 80px;
+}
+
+#entrepreneurship-word {
     top: 73%;
     right: 12%;
-    letter-spacing: 6px;
+    letter-spacing: 8px;
+}
+
+#entrepreneurship-quote {
+    bottom: 10%;
+    left: 45%;
 }
