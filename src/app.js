@@ -1,10 +1,10 @@
-import './styles/index.css';
-import './styles/navbar.css';
-import './styles/homeSection.css';
-import './styles/aboutSection.css';
-import './styles/projectsSection.css';
+import './styles/header.css';
+import './styles/main.css';
+import './styles/sections/home.css';
+import './styles/sections/about.css';
+import './styles/sections/projects.css';
 import './styles/footer.css';
 
 $(window).on("load resize", function () {
-    $(".fill-screen").css("height", window.innerHeight);
+    $("#home, #about, #projects").css("height", window.innerHeight);
 });
