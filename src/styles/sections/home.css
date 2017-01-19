@@ -10,4 +10,34 @@
 
 #bridge-photo p {
     position: absolute;
+    margin: 0;
+    letter-spacing: 8px;
+    color: #E2DFD9;
+    opacity: 0.6;
+}
+
+#environment {
+    top: 76%;
+    left: 15%;
+}
+
+#design {
+    top: 53%;
+    left: 31%;
+}
+
+#education {
+    top: 33%;
+    left: 43%;
+}
+
+#coding {
+    top: 56%;
+    right: 31%;
+}
+
+#bridge-photo #entrepreneurship {
+    top: 73%;
+    right: 12%;
+    letter-spacing: 6px;
 }
