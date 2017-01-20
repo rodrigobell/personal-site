@@ -1,6 +1,13 @@
 body {
     margin: 0;
-    background-color: #151717;
+    background-image: url(../../assets/images/mountains_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#fixed-bg {
+    background-color: rgba(0,0,0,0.8);
 }
 
 #about .section-title, #projects .section-title {
