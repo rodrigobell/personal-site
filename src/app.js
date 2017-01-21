@@ -4,6 +4,7 @@ import './styles/sections/home.css';
 import './styles/sections/about.css';
 import './styles/sections/projects.css';
 import './styles/footer.css';
+import mixitup from './mixitup.min';
 
 
 // Resize each section to be height of window viewport
@@ -19,7 +20,7 @@ $('nav a').on('click', function() {
    event.preventDefault();
 });
 
-// Hover handler for home section quotes
+// Handle hover event on home section words to show and hide quotes
 const homeWords = $('.home-words');
 const homeQuotes = $('.home-quotes');
 
@@ -33,3 +34,6 @@ for (let i = 0; i < homeWords.length; i++) {
         }
     });
 }
+
+// Create mixitup Mixer for projects section
+var mixer = mixitup('#portfolio-container');

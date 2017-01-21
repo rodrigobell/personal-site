@@ -83,7 +83,19 @@
                 <h1>PROJECTS</h1>
             </div>
             <div class="section-body">
-                <div class="shadow-container"></div>
+                <div class="shadow-container">
+                    <button type="button" data-filter="all">All</button>
+                    <button type="button" data-filter=".category-a">Category A</button>
+                    <button type="button" data-filter=".category-b">Category B</button>
+                    <button type="button" data-filter=".category-c">Category C</button>
+
+                    <div id="portfolio-container">
+                        <div class="mix category-a" data-order="1">project1</div>
+                        <div class="mix category-b" data-order="2">project2</div>
+                        <div class="mix category-b category-c" data-order="3">project3</div>
+                        <div class="mix category-a category-d" data-order="4">project4</div>
+                    </div>
+                </div>
             </div>
         </section> <!-- projects section end -->
     </main>
@@ -91,10 +103,10 @@
     <footer>
         <p><small>&copy; 2017 Rodrigo Bell. All rights reserved.</small></p>
         <nav id="social-media">
-            <a id="linkedin-icon" href="https://www.linkedin.com/in/rodrigobell" target="_blank"></a>
-            <a id="github-icon" href="https://github.com/rodrigobell" target="_blank"></a>
-            <a id="twitter-icon" href="https://twitter.com/elearnersdigest" target="_blank"></a>
-            <a id="pinterest-icon" href="https://www.pinterest.com/lucidgeometry/" target="_blank"></a>
+            <a id="linkedin-icon" href="https://www.linkedin.com/in/rodrigobell"></a>
+            <a id="github-icon" href="https://github.com/rodrigobell"></a>
+            <a id="twitter-icon" href="https://twitter.com/elearnersdigest"></a>
+            <a id="pinterest-icon" href="https://www.pinterest.com/lucidgeometry/"></a>
             <a id="email-icon" href="mailto:rbell594@gmail.com"></a>
         </nav>
     </footer>
@@ -104,5 +116,6 @@
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
     <script src="bundle.js"></script>
+
 </body>
 </html>
