@@ -7,7 +7,7 @@ body {
 }
 
 #fixed-bg {
-    background-color: rgba(0,0,0,0.95);
+    background-color: rgba(14, 11, 8, 0.97);
 }
 
 #about .section-title, #projects .section-title {
@@ -29,8 +29,14 @@ body {
 #about .section-body, #projects .section-body {
     position: relative;
     height: 88%;
-    background-color: #121515;
-    box-shadow: 0 0 12px rgba(0,0,0,0.8);
+    background-color: rgba(14,17,17,1);
+    box-shadow: 0 3px 16px rgba(0,0,0,0.8);
+}
+
+#about .section-body .shadow-container, #projects .section-body .shadow-container {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 -3px 16px rgba(0,0,0,0.8);
 }
 
 .hidden {

@@ -1,5 +1,5 @@
 import './styles/header.css';
-import './styles/main.css';
+import './styles/index.css';
 import './styles/sections/home.css';
 import './styles/sections/about.css';
 import './styles/sections/projects.css';
