@@ -21,8 +21,9 @@ $('nav a').on('click', function() {
 });
 
 // Handle hover event on home section words to show and hide quotes
-const homeWords = $('.home-words');
-const homeQuotes = $('.home-quotes');
+const homeWords = $('#home-words p');
+const homeQuotes = $('#home-quotes blockquote');
+
 
 for (let i = 0; i < homeWords.length; i++) {
     $(homeWords[i]).on({

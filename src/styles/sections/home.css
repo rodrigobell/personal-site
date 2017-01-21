@@ -8,7 +8,7 @@
     box-shadow: 0 3px 16px rgba(0,0,0,0.8);
 }
 
-.home-words {
+#home-words p {
     position: absolute;
     margin: 0;
     letter-spacing: 10px;
@@ -16,7 +16,7 @@
     opacity: 0.7;
 }
 
-.home-quotes {
+#home-quotes blockquote {
     position: absolute;
     width: 250px;
     height: 100px;
@@ -26,12 +26,12 @@
     border-radius: 5px;
 }
 
-.home-quotes q {
+#home-quotes q {
     display: inline-block;
     margin: 10px 10px 0 10px;
 }
 
-.home-quotes .quote-by {
+#home-quotes .quote-by {
     margin: 5px 10px 10px 10px;
     float: right;
 }
