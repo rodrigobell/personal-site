@@ -17,6 +17,6 @@ app.listen(port, function(err) {
     if (err) {
         console.log(err);
     } else {
-        console.log(chalk.green('Prod app running on PORT: ' + port));
+        console.log(chalk.green('Production server running on PORT: ' + port));
     }
 });

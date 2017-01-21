@@ -15,7 +15,7 @@ $(window).on('load resize', function () {
 $('nav a').on('click', function() {
    $('html, body').animate({
            scrollTop: $($(this).attr('href')).offset().top
-       }, 1500, 'swing');
+       }, 1200, 'swing');
    event.preventDefault();
 });
 

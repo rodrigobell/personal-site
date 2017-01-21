@@ -23,6 +23,6 @@ app.listen(port, function(err) {
     if (err) {
         console.log(err);
     } else {
-        console.log(chalk.green('Dev app running on PORT: ' + port));
+        console.log(chalk.green('Development server running on PORT: ' + port));
     }
 })
