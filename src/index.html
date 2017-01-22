@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
 </head>
 <body>
-    <div id="fixed-bg">
+    <div id="fixed-bg-dimmer">
     <header>
         <nav>
             <a id="logo" href="#home">Я|B</a>
@@ -18,13 +18,13 @@
     <main>
         <section id="home">
             <div id="home-bg">
-                <div id="home-words">
-                    <p id="environment-word">ENVIRONMENT</p>
-                    <p id="design-word">DESIGN</p>
-                    <p id="education-word">EDUCATION</p>
-                    <p id="coding-word">CODING</p>
-                    <p id="entrepreneurship-word">ENTREPRENEURSHIP</p>
-                </div>
+                <ul id="scene">
+                    <li class="layer" data-depth="0.10"><p id="environment-word">ENVIRONMENT</p></li>
+                    <li class="layer" data-depth="0.10"><p id="design-word">DESIGN</p></li>
+                    <li class="layer" data-depth="0.10"><p id="education-word">EDUCATION</p></li>
+                    <li class="layer" data-depth="0.10"><p id="coding-word">CODING</p></li>
+                    <li class="layer" data-depth="0.10"><p id="entrepreneurship-word">INNOVATION</p></li>
+                </ul>
                 <div id="home-quotes">
                     <blockquote id="environment-quote" class="hidden">
                         <q>Earth provides enough to satisfy every man’s needs,
@@ -50,7 +50,7 @@
                         <p class="quote-by">― Steve Jobs</p>
                     </blockquote>
                 </div>
-            </div> <!-- bridge-bg end -->
+            </div> <!-- home-bg end -->
         </section> <!-- home end -->
 
         <section id="about">
@@ -99,7 +99,7 @@
                             <div id="project-01" class="project mix category-a" data-order="1">
                                 <div class="label-container">
                                     <figcaption class="label-text">
-                                        <p class="text-desc"><span>Web game</span> to help relate measurements to real world every day things (e.g. average number of city blocks that fit in a mile).</p>
+                                        <p class="text-desc"><span>Web game</span> that teaches user to relate measurements to real world every day things (e.g. average number of city blocks that fit in a mile).</p>
                                         <p class="text-tech">HTML5,CSS3,jQuery</p>
                                     </figcaption>
                                 </div>
@@ -109,8 +109,12 @@
                             <div class="project mix category-a category-d" data-order="4"></div>
                             <div class="project mix category-a" data-order="5"></div>
                             <div class="project mix category-b" data-order="6"></div>
-                            <div class="project mix category-b category-c" data-order="7"></div>
-                            <div class="project mix category-a category-d" data-order="8"></div>
+                            <!--<div class="project mix category-b category-c" data-order="7"></div>-->
+                            <!--<div class="project mix category-a category-d" data-order="8"></div>-->
+                            <!--<div class="project mix category-a category-b" data-order="9"></div>-->
+                            <!--<div class="project mix category-a category-d" data-order="10"></div>-->
+                            <!--<div class="project mix category-a category-b" data-order="11"></div>-->
+                            <!--<div class="project mix category-a category-d" data-order="12"></div>-->
                         </div>
                     </div>
                 </div> <!-- shadow-container end -->

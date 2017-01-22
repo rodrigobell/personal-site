@@ -1,12 +1,13 @@
-body {
+html, body {
     margin: 0;
     background-image: url(../../assets/images/fixed_bgs/eiffel_tower.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
-#fixed-bg {
+#fixed-bg-dimmer {
     background-color: rgba(14, 11, 8, 0.97);
 }
 

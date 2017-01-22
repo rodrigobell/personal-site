@@ -2,18 +2,59 @@
     border: none;
     width: 100%;
     height: 100%;
-    background-image: url(../../../assets/images/stairs_bg.jpg);
+    background-image: url(../../../assets/images/globe_bg.jpg);
     background-size: cover;
     background-position: center;
     box-shadow: 0 3px 16px rgba(0,0,0,0.8);
 }
 
-#home-words p {
-    position: absolute;
+#scene {
+    width: 100%;
+    height: 100%;
     margin: 0;
+    padding: 0;
+}
+
+#scene .layer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#scene .layer p {
+    position: absolute;
     letter-spacing: 10px;
     color: #E2DFD9;
     opacity: 0.7;
+    margin: 0;
+}
+
+#environment-word {
+    left: 60px;
+    bottom: 200px;
+}
+
+#design-word {
+    top: 53%;
+    left: 31%;
+    letter-spacing: 12px;
+}
+
+#education-word {
+    top: 33%;
+    left: 43%;
+}
+
+#coding-word {
+    top: 58%;
+    right: 31%;
+    letter-spacing: 12px;
+}
+
+#entrepreneurship-word {
+    top: 73%;
+    right: 12%;
+    letter-spacing: 8px;
 }
 
 #home-quotes blockquote {
@@ -36,30 +77,14 @@
     float: right;
 }
 
-#environment-word {
-    top: 76%;
-    left: 15%;
-}
-
 #environment-quote {
-    top: 58%;
     left: 8%;
-}
-
-#design-word {
-    top: 53%;
-    left: 31%;
-    letter-spacing: 12px;
+    top: 58%;
 }
 
 #design-quote {
     top: 30%;
     left: 10%;
-}
-
-#education-word {
-    top: 33%;
-    left: 43%;
 }
 
 #education-quote {
@@ -68,25 +93,14 @@
     height: 80px;
 }
 
-#coding-word {
-    top: 58%;
-    right: 31%;
-    letter-spacing: 12px;
-}
-
 #coding-quote {
-    top: 45%;
-    right: 12%;
-    height: 65px;
-}
-
-#entrepreneurship-word {
-    top: 73%;
-    right: 12%;
-    letter-spacing: 8px;
+     top: 45%;
+     right: 12%;
+     height: 65px;
 }
 
 #entrepreneurship-quote {
-    bottom: 10%;
-    left: 45%;
+     bottom: 10%;
+     left: 45%;
 }
+

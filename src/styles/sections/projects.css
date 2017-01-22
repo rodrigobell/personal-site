@@ -1,7 +1,7 @@
 #portfolio-container {
     position: relative;
-    top: 80px;
-    width: 70%;
+    top: 50px;
+    width: 75%;
     height: 60%;
     margin: 0 auto;
     color: white;
@@ -28,18 +28,22 @@
 #portfolio-list .project {
     position: relative;
     display: inline-block;
-    width: 22%;
-    height: 50%;
+    width: 250px;
+    height: 220px;
     margin: 0 20px 20px 0;
-    background-color: #E2DFD9;
+    background-color: #82735D;
+    -webkit-background-size:;
+    background-size: cover;
+    background-position: center;
     border-radius: 5px;
 }
 
 .project .label-container {
     position: absolute;
     height: 100%;
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.85);
     bottom: -100%;
+    border-radius: 5px;
     opacity: 0;
     transition: all 500ms;
 }
@@ -55,7 +59,10 @@
 
 .label-text p {
     letter-spacing: 1px;
-    line-height: 120%;
-    margin: 0;
+    line-height: 150%;
+    margin: 0 0 10px 0;
 }
 
+#project-01 {
+    background-image: url(../../../assets/images/projects/units_game_tn.png);
+}
