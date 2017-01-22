@@ -1,3 +1,61 @@
 #portfolio-container {
+    position: relative;
+    top: 80px;
+    width: 70%;
+    height: 60%;
+    margin: 0 auto;
     color: white;
 }
+
+#filter-menu {
+    height: 10%;
+}
+
+#filter-menu button {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    color: #E2DFD9;
+    font-family: 'Raleway';
+    letter-spacing: 2px;
+    outline: none;
+}
+
+#portfolio-list {
+    height: 80%;
+}
+
+#portfolio-list .project {
+    position: relative;
+    display: inline-block;
+    width: 22%;
+    height: 50%;
+    margin: 0 20px 20px 0;
+    background-color: #E2DFD9;
+    border-radius: 5px;
+}
+
+.project .label-container {
+    position: absolute;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    bottom: -100%;
+    opacity: 0;
+    transition: all 500ms;
+}
+
+.project:hover .label-container {
+    bottom: 0;
+    opacity: 1;
+}
+
+.label-container .label-text {
+    padding: 10px;
+}
+
+.label-text p {
+    letter-spacing: 1px;
+    line-height: 120%;
+    margin: 0;
+}
+

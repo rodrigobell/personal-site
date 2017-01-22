@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Rodrigo Bell's Personal Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
 </head>
 <body>
     <div id="fixed-bg">
@@ -50,7 +51,7 @@
                     </blockquote>
                 </div>
             </div> <!-- bridge-bg end -->
-        </section> <!-- home section end -->
+        </section> <!-- home end -->
 
         <section id="about">
             <div class="section-title">
@@ -79,28 +80,42 @@
                     <div id="billiards-photo" />
                 </div> <!-- shadow-container end -->
             </div> <!-- section-body end -->
-        </section> <!-- about section end -->
+        </section> <!-- about end -->
 
         <section id="projects">
             <div class="section-title">
                 <h1>PROJECTS</h1>
-            </div>
+            </div> <!-- section-title end -->
             <div class="section-body">
                 <div class="shadow-container">
-                    <button type="button" data-filter="all">All</button>
-                    <button type="button" data-filter=".category-a">Category A</button>
-                    <button type="button" data-filter=".category-b">Category B</button>
-                    <button type="button" data-filter=".category-c">Category C</button>
-
                     <div id="portfolio-container">
-                        <div class="mix category-a" data-order="1">project1</div>
-                        <div class="mix category-b" data-order="2">project2</div>
-                        <div class="mix category-b category-c" data-order="3">project3</div>
-                        <div class="mix category-a category-d" data-order="4">project4</div>
+                        <div id="filter-menu">
+                            <button type="button" data-filter="all">All</button>
+                            <button type="button" data-filter=".category-a">Category A</button>
+                            <button type="button" data-filter=".category-b">Category B</button>
+                            <button type="button" data-filter=".category-c">Category C</button>
+                        </div>
+                        <div id="portfolio-list">
+                            <div id="project-01" class="project mix category-a" data-order="1">
+                                <div class="label-container">
+                                    <figcaption class="label-text">
+                                        <p class="text-desc"><span>Web game</span> to help relate measurements to real world every day things (e.g. average number of city blocks that fit in a mile).</p>
+                                        <p class="text-tech">HTML5,CSS3,jQuery</p>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div id="project-02" class="project mix category-b" data-order="2"></div>
+                            <div class="project mix category-b category-c" data-order="3"></div>
+                            <div class="project mix category-a category-d" data-order="4"></div>
+                            <div class="project mix category-a" data-order="5"></div>
+                            <div class="project mix category-b" data-order="6"></div>
+                            <div class="project mix category-b category-c" data-order="7"></div>
+                            <div class="project mix category-a category-d" data-order="8"></div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section> <!-- projects section end -->
+                </div> <!-- shadow-container end -->
+            </div> <!-- section-body end -->
+        </section> <!-- projects end -->
     </main>
 
     <footer>
