@@ -4,8 +4,10 @@ import './styles/sections/home.css';
 import './styles/sections/about.css';
 import './styles/sections/projects.css';
 import './styles/footer.css';
+import $ from 'jquery';
 import mixitup from './mixitup.min';
-import parallax from './jquery.parallax.min';
+// import parallax from './jquery.parallax.min';
+import scrollify from './jquery.scrollify.min';
 
 // Resize each section to be height of window viewport
 $(window).on('load resize', function () {
@@ -20,17 +22,19 @@ $('nav a').on('click', function() {
    event.preventDefault();
 });
 
-// Initialize parallax effect in home section
-$('#scene').parallax({
-    clipRelativeInput: true
+// Scrollify
+$.scrollify({
+    section : 'section'
 });
+
+// Initialize parallax effect in home section
+// $('#scene').parallax({
+//     clipRelativeInput: true
+// });
 
 // Handle hover event on home section words to show and hide quotes
 const sceneWords = $('#scene .layer p');
 const homeQuotes = $('#home-quotes blockquote');
-
-console.log(sceneWords);
-console.log(homeQuotes);
 
 for (let i = 0; i < sceneWords.length; i++) {
     $(sceneWords[i]).on({

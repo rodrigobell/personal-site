@@ -11,7 +11,7 @@ export default {
     output: {
         path: path.resolve(__dirname, 'public'),
         filename: 'bundle.js',
-        publicPath: '/'
+        publicPath: '/assets/'
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
