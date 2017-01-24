@@ -29,36 +29,40 @@
     text-shadow: 2px 2px rgba(0,0,0,0.3);
     letter-spacing: 10px;
     color: #E2DFD9;
-    opacity: 0.7;
     text-align: center;
 }
 
-#environment-word {
-    left: 7%;
-    bottom: 21%;
+.layer p#environment-word {
+    left: 10%;
+    bottom: 23%;
+    opacity: 0.7;
 }
 
-#design-word {
-    top: 47%;
-    left: 20%;
+.layer p#design-word {
+    top: 52%;
+    left: 29%;
     letter-spacing: 12px;
+    opacity: 0.6;
 }
 
-#education-word {
-    top: 64%;
+.layer p#education-word {
+    top: 32%;
     width: 100%;
+    opacity: 0.4;
 }
 
-#coding-word {
-    top: 47%;
-    right: 20%;
+.layer p#coding-word {
+    top: 56%;
+    right: 30%;
     letter-spacing: 12px;
+    opacity: 0.6;
 }
 
-#innovation-word {
-    right: 3%;
-    bottom: 21%;
+.layer p#innovation-word {
+    right: 12%;
+    bottom: 25%;
     letter-spacing: 8px;
+    opacity: 0.7;
 }
 
 #home-quotes blockquote {

@@ -6,31 +6,46 @@ import './styles/sections/projects.css';
 import './styles/footer.css';
 import $ from 'jquery';
 import mixitup from './mixitup.min';
-// import parallax from './jquery.parallax.min';
-import scrollify from './jquery.scrollify.min';
+import './jquery.parallax.min';
+import './jquery.scrollify.min';
 
 // Resize each section to be height of window viewport
 $(window).on('load resize', function () {
     $('#home, #about, #projects').css('height', window.innerHeight);
 });
 
-// Smooth scrolling from navbar link to corresponding section
-$('nav a').on('click', function() {
-   $('html, body').animate({
-           scrollTop: $($(this).attr('href')).offset().top
-       }, 1200, 'swing');
-   event.preventDefault();
-});
+// Initialize parallax effect in home section
+(function($) {
+    $('#scene').parallax({
+        limitX: 70,
+        limitY: 10
+    });
+
+})(jQuery);
 
 // Scrollify
-$.scrollify({
-    section : 'section'
+$(function() {
+    $.scrollify({
+        section : 'section',
+        easing: 'swing',
+        scrollSpeed: 800,
+        scrollbars: false,
+        before: function(i, sections) {
+            for (let s in sections) {
+                $(sections[s]).removeClass('active');
+            }
+            $(sections[i]).addClass('active');
+        },
+        after: function (i, sections) {
+            // console.log(i);
+        }
+    });
+    $("header a").on("click",function() {
+        $.scrollify.move($(this).attr("href"));
+    });
+
 });
 
-// Initialize parallax effect in home section
-// $('#scene').parallax({
-//     clipRelativeInput: true
-// });
 
 // Handle hover event on home section words to show and hide quotes
 const sceneWords = $('#scene .layer p');
@@ -48,4 +63,4 @@ for (let i = 0; i < sceneWords.length; i++) {
 }
 
 // Create mixitup Mixer for projects section
-var mixer = mixitup('#portfolio-container');
+mixitup('#portfolio-container');

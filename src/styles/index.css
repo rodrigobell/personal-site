@@ -1,14 +1,16 @@
 html, body {
     margin: 0;
-    /*background-image: url(../../assets/images/fixed_bgs/eiffel_tower.jpg);*/
-    /*background-size: cover;*/
-    /*background-position: center;*/
-    /*background-attachment: fixed;*/
-    /*overflow-x: hidden;*/
+    background-color: rgba(14, 11, 8, 0.97);
+    overflow: hidden;
 }
 
-#fixed-bg-dimmer {
-    background-color: rgba(14, 11, 8, 0.97);
+section {
+    opacity: 0;
+    transition: all 2s;
+}
+
+.active {
+    opacity: 1;
 }
 
 #about .section-title, #projects .section-title {
