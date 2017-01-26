@@ -17,8 +17,8 @@ $(window).on('load resize', function () {
 // Initialize parallax effect in home section
 (function($) {
     $('#scene').parallax({
-        limitX: 100,
-        limitY: 50
+        limitX: 50,
+        limitY: 10
     });
 
 })(jQuery);

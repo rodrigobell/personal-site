@@ -1,13 +1,3 @@
-#home-bg {
-    border: none;
-    width: 100%;
-    height: 100%;
-    /*background-image: url(../../../assets/images/bridge_bg.jpg);*/
-    /*background-size: cover;*/
-    /*background-position: center;*/
-    box-shadow: 0 3px 16px rgba(0,0,0,0.8);
-}
-
 #scene {
     width: 100%;
     height: 100%;
@@ -15,13 +5,18 @@
     padding: 0;
 }
 
-#scene .layer {
+.layer {
+    width: 100%;
+    height: 100%;
+}
+
+.bg {
     width: 100%;
     height: 100%;
     margin: 0;
 }
 
-#scene .layer #layer1 {
+#bg-01 {
     position: absolute;
     bottom: -1%;
     left: -1%;
@@ -32,7 +27,7 @@
     background-size: cover;
 }
 
-#scene .layer #layer2 {
+#bg-02 {
     position: absolute;
     bottom: -2%;
     left: -1%;
@@ -43,7 +38,7 @@
     background-size: cover;
 }
 
-#scene .layer #layer3 {
+#bg-03 {
     position: absolute;
     bottom: -2%;
     left: -2%;
@@ -54,7 +49,7 @@
     background-size: cover;
 }
 
-#scene .layer p {
+.word p {
     position: absolute;
     margin: 0;
     font-weight: bold;
@@ -65,33 +60,33 @@
     text-align: center;
 }
 
-.layer p#environment-word {
+#word-01 {
     left: 10%;
     bottom: 23%;
     opacity: 0.7;
 }
 
-.layer p#design-word {
+#word-02 {
     top: 52%;
     left: 29%;
     letter-spacing: 12px;
     opacity: 0.6;
 }
 
-.layer p#education-word {
+#word-03 {
     top: 30%;
     width: 100%;
     opacity: 0.4;
 }
 
-.layer p#coding-word {
+#word-04 {
     top: 56%;
     right: 30%;
     letter-spacing: 12px;
     opacity: 0.6;
 }
 
-.layer p#innovation-word {
+#word-05 {
     right: 12%;
     bottom: 25%;
     letter-spacing: 8px;

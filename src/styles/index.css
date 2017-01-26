@@ -1,6 +1,6 @@
 html, body {
     margin: 0;
-    background-color: rgba(14, 11, 8, 0.97);
+    background-color: #111111;
     overflow: hidden;
 }
 
@@ -31,15 +31,12 @@ section {
 
 #about .section-body, #projects .section-body {
     position: relative;
-    height: 88%;
-    background-color: rgba(14,17,17,1);
-    box-shadow: 0 3px 16px rgba(0,0,0,0.8);
+    height: 100%;
 }
 
 #about .section-body .shadow-container, #projects .section-body .shadow-container {
     width: 100%;
     height: 100%;
-    box-shadow: 0 -3px 16px rgba(0,0,0,0.8);
 }
 
 .hidden {

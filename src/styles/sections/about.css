@@ -1,4 +1,4 @@
-#about-text {
+#about-me {
     position: absolute;
     top: 180px;
     left: 80px;
@@ -7,11 +7,13 @@
     font-size: 18px;
     line-height: 190%;
     padding-left: 35px;
-    border-left: 2px solid rgba(255,255,255,0.4);
+    /*border-left: 2px solid rgba(255,255,255,0.4);*/
     opacity: 0.7;
+    font-family: "Gill Sans MT";
+    letter-spacing: 1px;
 }
 
-#about-text p {
+#about-me p {
     margin-top: 0;
 }
 
@@ -24,7 +26,7 @@
     margin: 0;
 }
 
-#about-text ul:first-of-type {
+#about-me ul:first-of-type {
     margin-right: 20px;
 }
 
