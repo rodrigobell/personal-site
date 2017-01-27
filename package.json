@@ -19,6 +19,7 @@
     "html-loader": "^0.4.4",
     "html-webpack-plugin": "^2.26.0",
     "npm-run-all": "^4.0.0",
+    "nsp": "^2.6.2",
     "rimraf": "^2.5.4",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
