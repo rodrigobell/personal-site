@@ -3,7 +3,6 @@ import './styles/index.css';
 import './styles/sections/home.css';
 import './styles/sections/about.css';
 import './styles/sections/projects.css';
-import './styles/footer.css';
 import $ from 'jquery';
 import mixitup from './mixitup.min';
 import './jquery.parallax.min';
@@ -63,4 +62,4 @@ for (let i = 0; i < sceneWords.length; i++) {
 }
 
 // Create mixitup Mixer for projects section
-mixitup('#portfolio-container');
+mixitup('#mixitup-container');

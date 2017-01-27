@@ -1,14 +1,17 @@
-#portfolio-container {
+#projects {
     position: relative;
-    top: 50px;
-    width: 75%;
-    height: 60%;
+}
+
+#mixitup-container {
+    position: absolute;
+    top: 80px;
+    width: 80%;
     margin: 0 auto;
     color: white;
 }
 
 #filter-menu {
-    height: 10%;
+    height: 30px;
 }
 
 #filter-menu button {
@@ -16,29 +19,41 @@
     background-color: transparent;
     border: none;
     color: #E2DFD9;
-    font-family: 'Raleway';
     letter-spacing: 2px;
     outline: none;
 }
 
-#portfolio-list {
+#project-container {
     height: 80%;
+    text-align: justify;
 }
 
-#portfolio-list .project {
+/*#project-container:after {*/
+    /*display: inline-block;*/
+    /*width: 100%;*/
+/*}*/
+
+.project {
     position: relative;
     display: inline-block;
+    /*vertical-align: top;*/
     width: 250px;
     height: 220px;
-    margin: 0 20px 20px 0;
+    /*margin-bottom: 1em;*/
+    margin-right: 20px;
     background-color: #82735D;
-    -webkit-background-size:;
     background-size: cover;
     background-position: center;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
-.project .label-container {
+.project:before {
+    display: inline-block;
+    padding-top: 50%;
+    content: '';
+}
+
+.label-container {
     position: absolute;
     height: 100%;
     background-color: rgba(0,0,0,0.85);
@@ -53,7 +68,7 @@
     opacity: 1;
 }
 
-.label-container .label-text {
+.label-text {
     padding: 10px;
 }
 
@@ -64,5 +79,5 @@
 }
 
 #project-01 {
-    background-image: url(../../../assets/images/projects/units_game_tn.png);
+    background-image: url(../../../assets/images/projects/thumbnails/units_game.png);
 }

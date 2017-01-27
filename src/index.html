@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Rodrigo Bell's Personal Website</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
+    <title>Rodrigo Bell</title>
 </head>
 <body>
     <header>
@@ -89,55 +88,33 @@
         </section> <!-- about end -->
 
         <section id="projects">
-            <div class="section-title">
-                <h1>PROJECTS</h1>
-            </div> <!-- section-title end -->
-            <div class="section-body">
-                <div class="shadow-container">
-                    <div id="portfolio-container">
-                        <div id="filter-menu">
-                            <button type="button" data-filter="all">All</button>
-                            <button type="button" data-filter=".category-a">Category A</button>
-                            <button type="button" data-filter=".category-b">Category B</button>
-                            <button type="button" data-filter=".category-c">Category C</button>
-                        </div>
-                        <div id="portfolio-list">
-                            <div id="project-01" class="project mix category-a" data-order="1">
-                                <div class="label-container">
-                                    <figcaption class="label-text">
-                                        <p class="text-desc"><span>Web game</span> that teaches user to relate measurements to real world every day things (e.g. average number of city blocks that fit in a mile).</p>
-                                        <p class="text-tech">HTML5,CSS3,jQuery</p>
-                                    </figcaption>
-                                </div>
-                            </div>
-                            <div id="project-02" class="project mix category-b" data-order="2"></div>
-                            <div class="project mix category-b category-c" data-order="3"></div>
-                            <div class="project mix category-a category-d" data-order="4"></div>
-                            <div class="project mix category-a" data-order="5"></div>
-                            <div class="project mix category-b" data-order="6"></div>
-                            <!--<div class="project mix category-b category-c" data-order="7"></div>-->
-                            <!--<div class="project mix category-a category-d" data-order="8"></div>-->
-                            <!--<div class="project mix category-a category-b" data-order="9"></div>-->
-                            <!--<div class="project mix category-a category-d" data-order="10"></div>-->
-                            <!--<div class="project mix category-a category-b" data-order="11"></div>-->
-                            <!--<div class="project mix category-a category-d" data-order="12"></div>-->
+            <div id="mixitup-container">
+                <div id="filter-menu">
+                    <button type="button" data-filter="all">All</button>
+                    <button type="button" data-filter=".category-a">Category A</button>
+                    <button type="button" data-filter=".category-b">Category B</button>
+                    <button type="button" data-filter=".category-c">Category C</button>
+                </div>
+                <div id="project-container">
+                    <div id="project-01" class="project mix category-a" data-order="1">
+                        <div class="label-container">
+                            <figcaption class="label-text">
+                                <p class="text-desc"><span>Web game</span> that teaches user to relate measurements to real world every day things (e.g. average number of city blocks that fit in a mile).</p>
+                                <p class="text-tech">HTML5,CSS3,jQuery</p>
+                            </figcaption>
                         </div>
                     </div>
-                </div> <!-- shadow-container end -->
-            </div> <!-- section-body end -->
+                    <div id="project-02" class="project mix category-b" data-order="2"></div>
+                    <div class="project mix category-b category-c" data-order="3"></div>
+                    <div class="project mix category-a category-d" data-order="4"></div>
+                    <div class="project mix category-a" data-order="5"></div>
+                    <div class="project mix category-b" data-order="6"></div>
+                    <div class="project mix category-b category-c" data-order="7"></div>
+                    <div class="project mix category-a category-d" data-order="8"></div>
+                </div>
+            </div>
         </section> <!-- projects end -->
     </main>
-
-    <footer>
-        <p><small>&copy; 2017 Rodrigo Bell. All rights reserved.</small></p>
-        <nav id="social-media">
-            <a id="linkedin-icon" href="https://www.linkedin.com/in/rodrigobell"></a>
-            <a id="github-icon" href="https://github.com/rodrigobell"></a>
-            <a id="twitter-icon" href="https://twitter.com/elearnersdigest"></a>
-            <a id="pinterest-icon" href="https://www.pinterest.com/lucidgeometry/"></a>
-            <a id="email-icon" href="mailto:rbell594@gmail.com"></a>
-        </nav>
-    </footer>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
