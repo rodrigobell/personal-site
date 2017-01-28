@@ -1,33 +1,83 @@
-#about-me {
+#about {
+    position: relative;
+}
+
+#about-container {
     position: absolute;
-    top: 180px;
-    left: 80px;
-    color: white;
-    width: 35%;
-    font-size: 18px;
-    line-height: 190%;
-    padding-left: 35px;
-    /*border-left: 2px solid rgba(255,255,255,0.4);*/
+    top: 100px;
+    left: 60px;
+    width: 500px;
+    z-index: 2;
     opacity: 0.7;
-    font-family: "Gill Sans MT";
-    letter-spacing: 1px;
 }
 
-#about-me p {
-    margin-top: 0;
+#about-container p, #about-container li {
+    margin: 0 0 15px 0;
+    font-family: "Gill Sans";
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: white;
 }
 
-#hobbies p {
+#about-container > p:first-child {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-weight: 700;
+
+    font-family: "Monserrat", sans-serif;
+}
+
+#about-container #hobby-list p {
+    margin-bottom: 5px;
+}
+
+#about-container #hobby-list ul {
     margin: 0;
-}
-
-#hobbies ul {
     float: left;
-    margin: 0;
 }
 
-#about-me ul:first-of-type {
-    margin-right: 20px;
+#about-container #hobby-list li {
+    margin-bottom: 5px;
+}
+
+#about-container ul:first-of-type {
+    padding-right: 30px;
+}
+
+#about-container #social-media {
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+#about-container #social-media a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin: 15px 15px 15px 15px;
+    mask-size: cover;
+    background-color: white;
+}
+
+#about-container #social-media #linkedin {
+    mask-image: url(../../../assets/images/about/linkedin_icon.svg);
+}
+
+#about-container #social-media #github {
+    mask-image: url(../../../assets/images/about/github_icon.svg);
+}
+
+#about-container #social-media #twitter {
+    mask-image: url(../../../assets/images/about/twitter_icon.svg);
+}
+
+#about-container #social-media #pinterest {
+    mask-image: url(../../../assets/images/about/pinterest_icon.svg);
+}
+
+#about-container #social-media #email {
+    mask-image: url(../../../assets/images/about/email_icon.svg);
 }
 
 #billiards-photo {

@@ -22,7 +22,7 @@
     left: -1%;
     width: 102%;
     height: 102%;
-    background-image: url(../../../assets/images/bridge_bg_layers/layer_1.png);
+    background-image: url(../../../assets/images/home/layers/layer_1.png);
     background-position: center;
     background-size: cover;
 }
@@ -33,7 +33,7 @@
     left: -1%;
     width: 105%;
     height: 105%;
-    background-image: url(../../../assets/images/bridge_bg_layers/layer_2.png);
+    background-image: url(../../../assets/images/home/layers/layer_2.png);
     background-position: center;
     background-size: cover;
 }
@@ -44,7 +44,7 @@
     left: -2%;
     width: 107%;
     height: 107%;
-    background-image: url(../../../assets/images/bridge_bg_layers/layer_3.png);
+    background-image: url(../../../assets/images/home/layers/layer_3.png);
     background-position: center;
     background-size: cover;
 }
