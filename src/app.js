@@ -16,8 +16,8 @@ $(window).on('load resize', function () {
 // Initialize parallax effect in home section
 (function($) {
     $('#scene').parallax({
-        limitX: 50,
-        limitY: 10
+        limitX: 40,
+        limitY: 20
     });
 
 })(jQuery);
@@ -36,7 +36,6 @@ $(function() {
             $(sections[i]).addClass('active');
         },
         after: function (i, sections) {
-            // console.log(i);
         }
     });
     $("header a").on("click",function() {

@@ -4,28 +4,31 @@
 
 #about-container {
     position: absolute;
-    top: 100px;
-    left: 60px;
-    width: 500px;
+    top: 120px;
+    left: 90px;
+    width: 530px;
     z-index: 2;
-    opacity: 0.7;
+    opacity: 0.65;
 }
 
 #about-container p, #about-container li {
     margin: 0 0 15px 0;
-    font-family: "Gill Sans";
+    font-family: "Trebuchet MS";
     font-size: 18px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.6px;
+    line-height: 175%;
     color: white;
 }
 
 #about-container > p:first-child {
+    margin-bottom: 15px;
     text-align: center;
     font-size: 50px;
-    letter-spacing: 10px;
-    font-weight: 700;
-
+    letter-spacing: 14px;
+    line-height: 100%;
     font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    color: #bbbab2;
 }
 
 #about-container #hobby-list p {
@@ -33,16 +36,24 @@
 }
 
 #about-container #hobby-list ul {
-    margin: 0;
+    margin: 0 0 30px 0;
+    padding-left: 50px;
     float: left;
 }
 
 #about-container #hobby-list li {
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
 #about-container ul:first-of-type {
-    padding-right: 30px;
+    padding-right: 15px;
+}
+
+#about-container hr {
+    display: block;
+    clear: both;
+    width: 80%;
+    border-color: #e3ebf5;
 }
 
 #about-container #social-media {
@@ -53,11 +64,17 @@
 
 #about-container #social-media a {
     display: inline-block;
-    width: 45px;
-    height: 45px;
-    margin: 15px 15px 15px 15px;
+    width: 40px;
+    height: 40px;
+    margin: 20px 15px 0 15px;
     mask-size: cover;
-    background-color: white;
+    background-color: #e3ebf5;
+    opacity: 0.70;
+    transition: opacity 400ms;
+}
+
+#about-container #social-media a:hover {
+    opacity: 1.0;
 }
 
 #about-container #social-media #linkedin {
