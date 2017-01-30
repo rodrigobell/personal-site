@@ -6,29 +6,29 @@
     position: absolute;
     top: 120px;
     left: 90px;
-    width: 530px;
+    width: 450px;
     z-index: 2;
     opacity: 0.65;
 }
 
+#about-container > p:first-child {
+     margin-bottom: 15px;
+     text-align: center;
+     font-size: 45px;
+     letter-spacing: 12px;
+     line-height: 100%;
+     font-family: "Monserrat", sans-serif;
+     font-weight: 700;
+     color: #bbbab2;
+ }
+
 #about-container p, #about-container li {
     margin: 0 0 15px 0;
     font-family: "Trebuchet MS";
-    font-size: 18px;
-    letter-spacing: 1.6px;
+    font-size: 15px;
+    letter-spacing: 1.4px;
     line-height: 175%;
     color: white;
-}
-
-#about-container > p:first-child {
-    margin-bottom: 15px;
-    text-align: center;
-    font-size: 50px;
-    letter-spacing: 14px;
-    line-height: 100%;
-    font-family: "Monserrat", sans-serif;
-    font-weight: 700;
-    color: #bbbab2;
 }
 
 #about-container #hobby-list p {
@@ -52,7 +52,7 @@
 #about-container hr {
     display: block;
     clear: both;
-    width: 80%;
+    width: 85%;
     border-color: #e3ebf5;
 }
 
@@ -66,7 +66,7 @@
     display: inline-block;
     width: 40px;
     height: 40px;
-    margin: 20px 15px 0 15px;
+    margin: 15px 15px 0 15px;
     mask-size: cover;
     background-color: #e3ebf5;
     opacity: 0.70;

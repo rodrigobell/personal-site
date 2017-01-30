@@ -1,56 +1,40 @@
-#projects {
-    position: relative;
-}
-
 #mixitup-container {
-    position: absolute;
-    top: 80px;
+    position: relative;
+    top: 100px;
     width: 80%;
     margin: 0 auto;
     color: white;
 }
 
-#filter-menu {
-    height: 30px;
-}
-
 #filter-menu button {
     display: inline-block;
-    background-color: transparent;
+    margin-right: 5px;
     border: none;
-    color: #E2DFD9;
-    letter-spacing: 2px;
     outline: none;
+    background-color: transparent;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #E2DFD9;
+    opacity: 0.8;
 }
 
-#project-container {
-    height: 80%;
-    text-align: justify;
+#mixitup-container hr {
+    margin: 20px 0 30px 0;
+    width: 40%;
+    opacity: 0.7;
 }
-
-/*#project-container:after {*/
-    /*display: inline-block;*/
-    /*width: 100%;*/
-/*}*/
 
 .project {
     position: relative;
-    display: inline-block;
-    /*vertical-align: top;*/
+    float: left;
     width: 250px;
     height: 220px;
-    /*margin-bottom: 1em;*/
-    margin-right: 20px;
+    margin-right: 25px;
+    margin-bottom: 25px;
     background-color: #82735D;
     background-size: cover;
     background-position: center;
     border-radius: 3px;
-}
-
-.project:before {
-    display: inline-block;
-    padding-top: 50%;
-    content: '';
 }
 
 .label-container {
@@ -58,7 +42,7 @@
     height: 100%;
     background-color: rgba(0,0,0,0.85);
     bottom: -100%;
-    border-radius: 5px;
+    border-radius: 3px;
     opacity: 0;
     transition: all 500ms;
 }
@@ -78,6 +62,32 @@
     margin: 0 0 10px 0;
 }
 
-#project-01 {
+#units-game {
     background-image: url(../../../assets/images/projects/thumbnails/units_game.png);
+}
+
+#battleship {
+    background-image: url(../../../assets/images/projects/thumbnails/battleship.png);
+}
+
+#color_game {
+    background-image: url(../../../assets/images/projects/thumbnails/color_game.png);
+}
+
+#football_sign {
+    background-image: url(../../../assets/images/projects/thumbnails/football_sign.png);
+}
+
+#poker {
+    background-image: url(../../../assets/images/projects/thumbnails/poker.png);
+}
+#richmond_pylon {
+    background-image: url(../../../assets/images/projects/thumbnails/richmond_pylon.png);
+}
+
+#shopping_outlet {
+    background-image: url(../../../assets/images/projects/thumbnails/shopping_outlet.png);
+}
+#tipster {
+    background-image: url(../../../assets/images/projects/thumbnails/tipster.png);
 }
