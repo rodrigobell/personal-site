@@ -10,7 +10,7 @@
 
 .pagination {
     position: fixed;
-    right: 50px;
+    right: 30px;
     top: 50%;
     transform: translateY(-50%);
     z-index: 99;
@@ -20,12 +20,19 @@
     display: block;
     position: relative;
     height: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
     padding-right: 35px;
     text-align: right;
     text-decoration: none;
-    font-family: "Gill Sans MT";
+    font-family: "Trebuchet MS";
+    font-size: 14px;
     color: black;
+    opacity: 0.7;
+    transition: color 3s;
+}
+
+.pagination.bright a {
+    color: #C8C4B9;
 }
 
 .pagination a span {
@@ -37,14 +44,15 @@
     position: absolute;
     right: 0px;
     top: 4px;
-    width: 10px;
-    height: 10px;
+    width: 9px;
+    height: 9px;
     display: box;
     border: 1px solid;
     border-radius: 50%;
     content: '';
+    transition: box-shadow 1s ease;
 }
 
-.bright {
-    color: #C8C4B9;
+.pagination a.active:after {
+    box-shadow: inset 0 0 0 5px;
 }

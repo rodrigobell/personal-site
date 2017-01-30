@@ -16,13 +16,14 @@ $(window).on('load resize', function () {
 // Initialize parallax effect in home section
 (function($) {
     $('#scene').parallax({
-        limitX: 40,
-        limitY: 20
+        limitX: 60,
+        limitY: 30
     });
-
 })(jQuery);
 
 // Scrollify
+var navLinks = $('.pagination a'); // used in before method
+console.log(navLinks);
 $(function() {
     $.scrollify({
         section : 'section',
@@ -30,12 +31,34 @@ $(function() {
         scrollSpeed: 800,
         scrollbars: false,
         before: function(i, sections) {
+            // Fade in active section when scrolled to it
             for (let s in sections) {
                 $(sections[s]).removeClass('active');
             }
             $(sections[i]).addClass('active');
+
+            // Update navigation indicator to show active section
+            for (var j = 0; j < navLinks.length; j++) {
+                $(navLinks[j]).removeClass('active');
+
+            }
+            $(navLinks[i]).addClass('active');
+
+            // Change color of navigation depending on active section
+            switch (i) {
+                case 0:
+                    $('.pagination').removeClass('bright');
+                    break;
+                case 1:
+                    $('.pagination').addClass('bright');
+                    break;
+                case 2:
+                    $('.pagination').addClass('bright');
+                    break;
+            }
         },
         after: function (i, sections) {
+
         }
     });
     $("header a").on("click",function() {
