@@ -23,7 +23,7 @@ $(window).on('load resize', function () {
 
 // Scrollify
 var navLinks = $('.pagination a'); // used in before method
-console.log(navLinks);
+
 $(function() {
     $.scrollify({
         section : 'section',
@@ -69,8 +69,8 @@ $(function() {
 
 
 // Handle hover event on home section words to show and hide quotes
-const sceneWords = $('#scene .layer p');
-const homeQuotes = $('#home-quotes blockquote');
+const sceneWords = $('#scene .word p');
+const homeQuotes = $('#scene .quotes blockquote');
 
 for (let i = 0; i < sceneWords.length; i++) {
     $(sceneWords[i]).on({
@@ -79,6 +79,9 @@ for (let i = 0; i < sceneWords.length; i++) {
         },
         mouseleave: function() {
             $(homeQuotes[i]).addClass('hidden');
+            // $(homeQuotes[i]).delay(500).queue(function() {
+            //     $(this).addClass('hidden').dequeue();
+            // });
         }
     });
 }
