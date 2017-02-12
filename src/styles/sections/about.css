@@ -4,9 +4,9 @@
 
 #about-container {
     position: absolute;
-    top: 120px;
+    top: 130px;
     left: 90px;
-    width: 450px;
+    width: 480px;
     z-index: 2;
     opacity: 0.65;
 }
@@ -14,9 +14,9 @@
 #about-container > p:first-child {
      margin-bottom: 15px;
      text-align: center;
-     font-size: 45px;
-     letter-spacing: 12px;
-     line-height: 100%;
+     font-size: 48px;
+     letter-spacing: 14px;
+     line-height: 110%;
      font-family: "Monserrat", sans-serif;
      font-weight: 700;
      color: #bbbab2;
@@ -25,7 +25,7 @@
 #about-container p, #about-container li {
     margin: 0 0 15px 0;
     font-family: "Trebuchet MS";
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 1.4px;
     line-height: 175%;
     color: white;
@@ -64,13 +64,13 @@
 
 #about-container #social-media a {
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin: 15px 15px 0 15px;
     mask-size: cover;
     background-color: #e3ebf5;
     opacity: 0.70;
-    transition: opacity 400ms;
+    transition: opacity 200ms;
 }
 
 #about-container #social-media a:hover {
@@ -99,10 +99,71 @@
 
 #billiards-photo {
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
     right: 0;
-    width: 65%;
+    width: 70%;
     height: 70%;
     background-image: url(../../../assets/images/about/billiards.png);
     background-size: cover;
+}
+
+@media (min-width: 1500px) {
+    #about-container {
+        left: 150px;
+        width: 600px;
+    }
+    #about-container > p:first-child {
+        font-size: 50px;
+        letter-spacing: 19px;
+    }
+    #about-container p, #about-container li {
+        font-size: 17px;
+        margin: 0 0 18px 0;
+        line-height: 185%;
+    }
+    #about-container ul:first-of-type {
+        padding-right: 40px;
+    }
+    #about-container #hobby-list ul {
+        padding-left: 60px;
+    }
+    #about-container #social-media a {
+        width: 40px;
+        height: 40px;
+        margin: 15px 23px 0 23px;
+    }
+    #billiards-photo {
+        width: 60%;
+        height: 75%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #about-container {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 80px;
+        width: 85%;
+    }
+    #about-container > p:first-child {
+        font-size: 60px;
+        letter-spacing: 12px;
+    }
+    #about-container p:nth-child(3) {
+        display: none;
+    }
+    #about-container p, #about-container li {
+        margin: 0 0 18px 0;
+        font-size: 18px;
+        line-height: 160%;
+    }
+    #about-container #social-media a {
+        width: 42px;
+        height: 42px;
+        margin: 15px 20px 0 20px;
+    }
+    #billiards-photo {
+        height: 55%;
+        width: 90%;
+    }
 }

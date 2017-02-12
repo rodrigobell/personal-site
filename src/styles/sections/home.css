@@ -80,26 +80,32 @@
     top: 29%;
     left: 50%;
     transform: translateX(-50%);
-    opacity: 0.4;
+    opacity: 0.3;
 }
 
 #word-04 {
-    top: 56%;
+    top: 54%;
     right: 30%;
     letter-spacing: 12px;
     opacity: 0.6;
 }
 
 #word-05 {
-    right: 12%;
-    bottom: 25%;
+    right: 16%;
+    bottom: 23%;
     letter-spacing: 8px;
     opacity: 0.7;
 }
 
+@media (min-width: 1500px) {
+    #word-03 {
+        top: 25%;
+    }
+}
+
 .quotes blockquote {
     position: absolute;
-    width: 260px;
+    width: 280px;
     height: 100px;
     margin: 0;
     color: rgba(255,255,255,0.8);
