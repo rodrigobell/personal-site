@@ -105,8 +105,8 @@
 
 .quotes blockquote {
     position: absolute;
-    width: 280px;
-    height: 100px;
+    width: 300px;
+    height: 120px;
     margin: 0;
     color: rgba(255,255,255,0.8);
     background-color: rgba(0,0,0,0.85);
@@ -116,15 +116,15 @@
 
 .quotes blockquote q {
     display: inline-block;
-    margin: 10px 10px 0 10px;
-    letter-spacing: 1px;
+    margin: 6px 10px 0 10px;
+    letter-spacing: 1.5px;
     font-family: "Monserrat", sans-serif;
     font-size: 14px;
-    line-height: 140%;
+    line-height: 160%;
 }
 
 .quotes blockquote span {
-    margin: 5px 10px 10px 10px;
+    margin: 5px 15px 8px 10px;
     float: right;
     position: absolute;
     bottom: 0;
@@ -132,31 +132,35 @@
 }
 
 #quote-01 {
-    left: 34%;
+    left: 32%;
     bottom: 10%;
+    width: 350px;
+    height: 85px;
 }
 
 #quote-02 {
     top: 30%;
     left: 10%;
-    width: 280px;
+    width: 300px;
+    height: 105px;
 }
 
 #quote-03 {
     top: 10%;
     left: 55%;
-    height: 80px;
+    width: 350px;
+    height: 85px;
 }
 
 #quote-04 {
-    top: 45%;
+    top: 38%;
     right: 12%;
-    height: 65px;
+    height: 60px;
 }
 
 #quote-05 {
     bottom: 10%;
-    left: 45%;
-    height: 90px;
+    left: 50%;
+    height: 82px;
 }
 
