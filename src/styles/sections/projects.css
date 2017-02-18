@@ -1,9 +1,10 @@
 #mixitup-container {
     position: relative;
-    top: 105px;
+    top: 100px;
     width: 85%;
-    left: 80px;
+    left: 110px;
     color: white;
+    z-index: 1;
 }
 
 #filter-menu button {
@@ -29,12 +30,13 @@
     float: left;
     width: 250px;
     height: 220px;
-    margin-right: 25px;
-    margin-bottom: 25px;
+    margin-right: 22px;
+    margin-bottom: 22px;
     background-color: #82735D;
     background-size: cover;
     background-position: center;
     border-radius: 3px;
+    z-index: 2;
 }
 
 .label-container {
@@ -60,6 +62,7 @@
     letter-spacing: 1px;
     line-height: 150%;
     margin: 0 0 10px 0;
+    color: white;
 }
 
 #units-game {
@@ -70,24 +73,80 @@
     background-image: url(../../../assets/images/projects/thumbnails/battleship.png);
 }
 
-#color_game {
+#color-game {
     background-image: url(../../../assets/images/projects/thumbnails/color_game.png);
 }
 
-#football_sign {
+#football-sign {
     background-image: url(../../../assets/images/projects/thumbnails/football_sign.png);
 }
 
 #poker {
     background-image: url(../../../assets/images/projects/thumbnails/poker.png);
 }
-#richmond_pylon {
+#richmond-pylon {
     background-image: url(../../../assets/images/projects/thumbnails/richmond_pylon.png);
 }
 
-#shopping_outlet {
+#shopping-outlet {
     background-image: url(../../../assets/images/projects/thumbnails/shopping_outlet.png);
 }
+
 #tipster {
     background-image: url(../../../assets/images/projects/thumbnails/tipster.png);
+}
+
+#movie-viewer {
+    background-image: url(../../../assets/images/projects/thumbnails/movie_viewer.png);
+}
+
+#yelp-clone {
+    background-image: url(../../../assets/images/projects/thumbnails/yelp_clone.png);
+}
+
+.lightbox {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.lightbox div {
+    /*position: relative;*/
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    background: rgba(0,0,0,0.8);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lightbox:target {
+    /** Remove default browser outline */
+    outline: none;
+    /** Unhide lightbox **/
+    display: block;
+}
+
+#units-game-demo div {
+    background-image: url(../../../assets/images/projects/detailed/units_game.png);
+    background-size: 60%;
+}
+
+#color-game-demo div {
+    background-image: url(../../../assets/images/projects/detailed/color_game.png);
+    background-size: 60%;
+}
+
+#tipster-demo div {
+    background-image: url(../../../assets/images/projects/detailed/tipster.gif);
+}
+
+#movie-viewer-demo div {
+    background-image: url(../../../assets/images/projects/detailed/movie_viewer.gif);
+}
+
+#yelp-clone-demo div {
+    background-image: url(../../../assets/images/projects/detailed/yelp_clone.gif);
 }
