@@ -4,8 +4,8 @@
 
 #about-container {
     position: absolute;
-    top: 130px;
-    left: 100px;
+    top: 10%;
+    left: 10%;
     width: 480px;
     z-index: 2;
     opacity: 0.65;
@@ -109,12 +109,12 @@
 
 @media (min-width: 1500px) {
     #about-container {
-        left: 150px;
+        top: 12%;
         width: 570px;
     }
     #about-container > p:first-child {
         font-size: 50px;
-        letter-spacing: 19px;
+        letter-spacing: 17px;
     }
     #about-container p, #about-container li {
         font-size: 17px;
@@ -140,10 +140,10 @@
 
 @media (max-width: 1000px) {
     #about-container {
+        top: 7%;
         left: 50%;
         transform: translateX(-50%);
-        top: 80px;
-        width: 85%;
+        width: 70%;
     }
     #about-container > p:first-child {
         font-size: 60px;

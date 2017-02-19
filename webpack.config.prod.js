@@ -23,7 +23,7 @@ export default {
         loaders: [
             {test: /\.js$/, exclude: /node_modules/, loaders: ['babel']},
             {test: /\.css$/, exclude: /node_modules/, loaders: ['style', 'css', 'autoprefixer']},
-            {test: /\.(png|jpg|jpeg|svg|ttf|eot)$/, exclude: /node_modules/, loaders: ['url?limit=5000']}
+            {test: /\.(png|jpg|jpeg|svg|gif|ttf|eot)$/, exclude: /node_modules/, loaders: ['url?limit=5000']}
         ]
     }
 }
