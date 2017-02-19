@@ -30,7 +30,7 @@
 
 #bg-02 {
     position: absolute;
-    bottom: -2%;
+    bottom: -1%;
     left: -1%;
     width: 105%;
     height: 105%;
@@ -41,7 +41,7 @@
 
 #bg-03 {
     position: absolute;
-    bottom: -2%;
+    bottom: -1%;
     left: -2%;
     width: 107%;
     height: 107%;
@@ -124,6 +124,7 @@
 }
 
 .quotes blockquote span {
+    font-size: 13px;
     margin: 5px 15px 8px 10px;
     float: right;
     position: absolute;
@@ -134,21 +135,21 @@
 #quote-01 {
     left: 32%;
     bottom: 10%;
-    width: 350px;
+    width: 380px;
     height: 85px;
 }
 
 #quote-02 {
     top: 30%;
     left: 10%;
-    width: 300px;
+    width: 340px;
     height: 105px;
 }
 
 #quote-03 {
     top: 10%;
     left: 55%;
-    width: 350px;
+    width: 370px;
     height: 85px;
 }
 
@@ -156,6 +157,7 @@
     top: 38%;
     right: 12%;
     height: 60px;
+    width: 310px;
 }
 
 #quote-05 {

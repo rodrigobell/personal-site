@@ -134,7 +134,7 @@
     }
     #billiards-photo {
         width: 60%;
-        height: 75%;
+        height: 70%;
     }
 }
 
@@ -165,5 +165,17 @@
     #billiards-photo {
         height: 55%;
         width: 90%;
+    }
+}
+
+@media (max-height: 900px) {
+    #about-container {
+        left: 8%;
+        top: 44%;
+        transform: translateY(-50%);
+    }
+    #billiards-photo {
+        height: 75%;
+        width: 60%;
     }
 }
